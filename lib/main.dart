@@ -1,16 +1,22 @@
+import 'package:app_estudo_biblico/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(const MyWidget());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class MyWidget extends StatelessWidget {
+  const MyWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(body: Center(child: Text('Hello World!'))),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      initialRoute: '/',
+      routes: {
+        '/' :(context) => HomePage(),
+        
+      },
     );
   }
 }
