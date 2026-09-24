@@ -3,8 +3,13 @@ import 'package:flutter/material.dart';
 class CustomAppBarWidget extends StatelessWidget
     implements PreferredSizeWidget {
   final String title;
+  final double? fontSize;
 
-  const CustomAppBarWidget({super.key, required this.title});
+  const CustomAppBarWidget({
+    super.key,
+    required this.title,
+    this.fontSize = 19,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +17,7 @@ class CustomAppBarWidget extends StatelessWidget
       title: Text(title),
       titleTextStyle: TextStyle(
         color: Colors.white,
-        fontSize: 19,
+        fontSize: fontSize,
         fontWeight: FontWeight.w600,
       ),
       centerTitle: true,

@@ -21,128 +21,98 @@ class CustomDrawerWidget extends StatelessWidget {
             leading: Icon(Icons.book),
             title: Text('Tema 01'),
             onTap: () {
-
+              Navigator.of(context).pushReplacementNamed('/tema01Biblia');
             },
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.book),
             title: Text('Tema 02'),
-            onTap: () {
-              
-            },
+            onTap: () {},
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.book),
             title: Text('Tema 03'),
-            onTap: () {
-              
-            },
+            onTap: () {},
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.book),
             title: Text('Tema 04'),
-            onTap: () {
-              
-            },
+            onTap: () {},
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.book),
             title: Text('Tema 05'),
-            onTap: () {
-              
-            },
+            onTap: () {},
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.book),
             title: Text('Tema 06'),
-            onTap: () {
-              
-            },
+            onTap: () {},
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.book),
             title: Text('Tema 07'),
-            onTap: () {
-              
-            },
+            onTap: () {},
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.book),
             title: Text('Tema 08'),
-            onTap: () {
-              
-            },
+            onTap: () {},
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.book),
             title: Text('Tema 09'),
-            onTap: () {
-              
-            },
+            onTap: () {},
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.book),
             title: Text('Tema 10'),
-            onTap: () {
-              
-            },
+            onTap: () {},
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.book),
             title: Text('Tema 11'),
-            onTap: () {
-              
-            },
+            onTap: () {},
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.book),
             title: Text('Tema 12'),
-            onTap: () {
-              
-            },
+            onTap: () {},
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.book),
             title: Text('Tema 13'),
-            onTap: () {
-              
-            },
+            onTap: () {},
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.book),
             title: Text('Tema 14'),
-            onTap: () {
-              
-            },
+            onTap: () {},
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.book),
             title: Text('Tema 15'),
-            onTap: () {
-              
-            },
+            onTap: () {},
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.book),
             title: Text('Tema 16'),
-            onTap: () {
-              
-            },
+            onTap: () {},
           ),
           Divider(),
         ],

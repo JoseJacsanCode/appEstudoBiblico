@@ -1,4 +1,6 @@
 import 'package:app_estudo_biblico/pages/home_page.dart';
+import 'package:app_estudo_biblico/pages/tema_01_biblia_page.dart';
+import 'package:app_estudo_biblico/pages/tema_02_oracao_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,6 +17,8 @@ class MyWidget extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/' :(context) => HomePage(),
+        '/tema01Biblia' : (context) => Tema01BibliaPage(),
+        '/tema02Oracao' :(context) => Tema02OracaoPage()
       },
     );
   }
