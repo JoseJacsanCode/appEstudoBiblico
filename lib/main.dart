@@ -15,7 +15,6 @@ class MyWidget extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/' :(context) => HomePage(),
-        
       },
     );
   }
